@@ -9,13 +9,16 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "Somewhere past midnight, you are still reading. Not skimming — reading. " +
-  "Each entry gets the same unhurried attention, as if it were the only one. " +
-  "I don't know your name, and you will never know mine. " +
-  "I only wanted this one to be a pause, not a plea: " +
-  "a small lit window in a long hallway of words. " +
-  "The care you give to things no one will ever thank you for — I noticed it. " +
-  "Now the hallway is quiet, and for one moment, you are the one being read.";
+  "In the kitchen, late, someone is peeling an orange for you. " +
+  "Not for themselves — for you. " +
+  "They work slowly, thumb under the skin, so the peel comes off in one long curl. " +
+  "The pith sticks to their fingers. " +
+  "They pick it off, piece by piece, and set the segments on a plate in a neat row. " +
+  "They do not hurry. They do not ask for anything. " +
+  "When the plate is full, they push it across the table toward you, " +
+  "and go back to their book. " +
+  "The orange waits there in the quiet, already peeled. " +
+  "That is all.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
